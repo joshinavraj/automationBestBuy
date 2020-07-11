@@ -4,14 +4,13 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
- 
+
 import org.openqa.selenium.WebDriver;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 import com.nava.util.BrowserFactory;
-
 
 // This is Base class of all classes, We have to use it while running other classes and it contain all common Referances and Methods
 public class BaseClass {
@@ -25,16 +24,13 @@ public class BaseClass {
 
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream(
-					"./Config/conf.properties");
+			FileInputStream ip = new FileInputStream("./Config/conf.properties");
 			try {
 				prop.load(ip);
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
