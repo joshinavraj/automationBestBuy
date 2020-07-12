@@ -1,0 +1,6 @@
+com\nava\util\BrowserFactory.class
+com\nava\util\MainAutomation.class
+com\nava\testCases\ShowTestCase.class
+com\nava\pages\SighInPage.class
+com\nava\pages\BaseClass.class
+com\nava\pages\HomePage.class

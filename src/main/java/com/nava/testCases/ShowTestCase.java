@@ -14,7 +14,7 @@ public class ShowTestCase extends BaseClass {
 		homePage.clickAccountMenuIcon();
 		SighInPage sighInPage=PageFactory.initElements(driver, SighInPage.class);
 		sighInPage.enterCreadentials("navraj@joshi.com", "Navraj@joshi");
-		
+		System.out.println("Test casse passed");
 		
 	}
 

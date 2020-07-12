@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class BrowserFactory {
-	
+	static String currentDirectory = System.getProperty("user.dir");
 	
 	public static WebDriver startApplication( WebDriver driver, String browserName, String appURL) {
 		
@@ -16,13 +16,13 @@ public class BrowserFactory {
 			
 		{
 			
-			System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",currentDirectory+ "/Drivers/chromedriver.exe");
 			driver= new ChromeDriver();
 			System.out.println("chrome Browser lunched");
 			
 		}else if(browserName.equalsIgnoreCase("Firefox")) 
 		{
-			System.setProperty("webdriver.gecko.driver","./Drivers/geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver",currentDirectory+"/Drivers/geckodriver.exe");
 			driver= new FirefoxDriver();
 			
 		}else if(browserName.equalsIgnoreCase("IE")) 

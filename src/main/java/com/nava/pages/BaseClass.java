@@ -18,13 +18,13 @@ public class BaseClass {
 	public WebDriver driver;
 
 	public static Properties prop;
-	// setup page is goes there
+	String currentDirectory = System.getProperty("user.dir");
 
 	public BaseClass() {
 
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("./Config/conf.properties");
+			FileInputStream ip = new FileInputStream(currentDirectory+"/Config/conf.properties");
 			try {
 				prop.load(ip);
 			} catch (IOException e) {
