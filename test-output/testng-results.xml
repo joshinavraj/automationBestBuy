@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40580" started-at="2020-07-11T21:54:53 EDT" finished-at="2020-07-11T21:55:34 EDT">
+  <suite name="Default suite" duration-ms="29706" started-at="2020-08-02T16:08:03 EDT" finished-at="2020-08-02T16:08:33 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40580" started-at="2020-07-11T21:54:53 EDT" finished-at="2020-07-11T21:55:34 EDT">
+    <test name="Default test" duration-ms="29706" started-at="2020-08-02T16:08:03 EDT" finished-at="2020-08-02T16:08:33 EDT">
       <class name="com.nava.testCases.ShowTestCase">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.nava.testCases.ShowTestCase@1563da5]" name="setup" is-config="true" duration-ms="23431" started-at="2020-07-11T21:54:53 EDT" finished-at="2020-07-11T21:55:17 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nava.testCases.ShowTestCase@1563da5]" name="setup" is-config="true" duration-ms="17051" started-at="2020-08-02T16:08:03 EDT" finished-at="2020-08-02T16:08:20 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="myTest()[pri:0, instance:com.nava.testCases.ShowTestCase@1563da5]" name="myTest" duration-ms="17062" started-at="2020-07-11T21:55:17 EDT" finished-at="2020-07-11T21:55:34 EDT">
+        <test-method status="PASS" signature="myTest()[pri:0, instance:com.nava.testCases.ShowTestCase@1563da5]" name="myTest" duration-ms="12622" started-at="2020-08-02T16:08:21 EDT" finished-at="2020-08-02T16:08:33 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myTest -->
