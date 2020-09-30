@@ -1,5 +1,9 @@
 Manifest-Version: 1.0
 Built-By: navra
+<<<<<<< HEAD
 Build-Jdk: 11.0.8
+=======
+Build-Jdk: 1.8.0_201
+>>>>>>> e487c9bc4be10c4ef3a8ea7e6f87286af92f3278
 Created-By: Maven Integration for Eclipse
 
